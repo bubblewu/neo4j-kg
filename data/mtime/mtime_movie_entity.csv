@@ -1,0 +1,101 @@
+index:ID,rank,src,name,movie_en,year,:LABEL
+10000,1,http://movie.mtime.com/12231/,肖申克的救赎,The Shawshank Redemption,1994,电影表
+10001,2,http://movie.mtime.com/99547/,盗梦空间,Inception,2010,电影表
+10002,3,http://movie.mtime.com/10054/,阿甘正传,Forrest Gump,1994,电影表
+10003,4,http://movie.mtime.com/12281/,辛德勒的名单,Schindler's List,1993,电影表
+10004,5,http://movie.mtime.com/10968/,教父,The Godfather,1972,电影表
+10005,6,http://movie.mtime.com/98604/,海豚湾,The Cove,2009,电影表
+10006,7,http://movie.mtime.com/52952/,机器人总动员,WALL·E,2008,电影表
+10007,8,http://movie.mtime.com/12599/,这个杀手不太冷,Léon,1994,电影表
+10008,9,http://movie.mtime.com/51378/,蝙蝠侠：黑暗骑士,The Dark Knight,2008,电影表
+10009,10,http://movie.mtime.com/10190/,霸王别姬,Farewell My Concubine,1993,电影表
+10010,11,http://movie.mtime.com/11982/,天堂电影院,Nuovo cinema Paradiso,1988,电影表
+10011,12,http://movie.mtime.com/11234/,乱世佳人,Gone with the Wind,1939,电影表
+10012,13,http://movie.mtime.com/227434/,寻梦环游记,Coco,2017,电影表
+10013,14,http://movie.mtime.com/13367/,十二怒汉,12 Angry Men,1957,电影表
+10014,15,http://movie.mtime.com/11550/,千与千寻,Spirited Away,2001,电影表
+10015,16,http://movie.mtime.com/11925/,泰坦尼克号,Titanic,1997,电影表
+10016,17,http://movie.mtime.com/10288/,搏击俱乐部,Fight Club,1999,电影表
+10017,18,http://movie.mtime.com/11319/,美国往事,Once Upon a Time in America,1984,电影表
+10018,19,http://movie.mtime.com/10970/,教父2,The Godfather: Part II,1974,电影表
+10019,20,http://movie.mtime.com/83276/,海洋,Océans,2009,电影表
+10020,21,http://movie.mtime.com/11524/,七武士,The Seven Samurai,1954,电影表
+10021,22,http://movie.mtime.com/45997/,阿凡达,Avatar,2009,电影表
+10022,23,http://movie.mtime.com/10746/,海上钢琴师,The Legend of 1900,1998,电影表
+10023,24,http://movie.mtime.com/93049/,三傻大闹宝莱坞,Three Idiots,2009,电影表
+10024,25,http://movie.mtime.com/51119/,星际穿越,Interstellar,2014,电影表
+10025,26,http://movie.mtime.com/125424/,蝙蝠侠：黑暗骑士崛起,The Dark Knight Rises,2012,电影表
+10026,27,http://movie.mtime.com/63105/,少年派的奇幻漂流,Life of Pi,2012,电影表
+10027,28,http://movie.mtime.com/92909/,玛丽和马克思,Mary and Max,2009,电影表
+10028,29,http://movie.mtime.com/81377/,忠犬八公的故事,Hachiko: A Dog's Story,2009,电影表
+10029,30,http://movie.mtime.com/112254/,迈克尔·杰克逊：就是这样,This Is It,2009,电影表
+10030,31,http://movie.mtime.com/242167/,我不是药神,Dying To Survive,2018,电影表
+10031,32,http://movie.mtime.com/107122/,暴力云与送子鹳,Partly Cloudy,2009,电影表
+10032,33,http://movie.mtime.com/10786/,黑客帝国,The Matrix,1999,电影表
+10033,34,http://movie.mtime.com/11404/,魔戒首部曲：魔戒现身,The Lord of the Rings: The Fellowship of the Ring,2001,电影表
+10034,35,http://movie.mtime.com/16682/,放牛班的春天,Les Choristes,2004,电影表
+10035,36,http://movie.mtime.com/11809/,狮子王,The Lion King,1994,电影表
+10036,37,http://movie.mtime.com/11211/,龙猫,My Neighbor Totoro,1988,电影表
+10037,38,http://movie.mtime.com/11245/,罗马假日,Roman Holiday,1953,电影表
+10038,39,http://movie.mtime.com/11962/,天空之城,Laputa: Castle in the Sky,1986,电影表
+10039,40,http://movie.mtime.com/10578/,飞越疯人院,One Flew Over the Cuckoo's Nest,1975,电影表
+10040,41,http://movie.mtime.com/10717/,鬼子来了,Devils on the Doorstep,2000,电影表
+10041,42,http://movie.mtime.com/11421/,杀人回忆,Memories of Murder,2003,电影表
+10042,43,http://movie.mtime.com/13187/,音乐之声,The Sound of Music,1965,电影表
+10043,44,http://movie.mtime.com/12428/,一一,Yi yi: A One and a Two,2000,电影表
+10044,45,http://movie.mtime.com/14865/,完美的世界,A Perfect World,1993,电影表
+10045,46,http://movie.mtime.com/79055/,飞屋环游记,Up,2009,电影表
+10046,47,http://movie.mtime.com/11970/,天使爱美丽,Amelie,2001,电影表
+10047,48,http://movie.mtime.com/11403/,魔戒二部曲：双塔奇兵,The Lord of the Rings: The Two Towers,2002,电影表
+10048,49,http://movie.mtime.com/10468/,低俗小说,Pulp Fiction,1994,电影表
+10049,50,http://movie.mtime.com/46125/,玩具总动员3,Toy Story 3,2010,电影表
+10050,51,http://movie.mtime.com/86897/,怦然心动,Flipped,2010,电影表
+10051,52,http://movie.mtime.com/11600/,情书,Love Letter,1995,电影表
+10052,53,http://movie.mtime.com/205222/,疯狂动物城,Zootopia,2016,电影表
+10053,54,http://movie.mtime.com/13695/,闻香识女人,Scent of a Woman,1992,电影表
+10054,55,http://movie.mtime.com/10637/,钢琴家,The Pianist,2002,电影表
+10055,56,http://movie.mtime.com/13557/,两杆大烟枪,"Lock, Stock and Two Smoking Barrels",1998,电影表
+10056,57,http://movie.mtime.com/13700/,死亡诗社,Dead Poets Society,1989,电影表
+10057,58,http://movie.mtime.com/10895/,活着,To Live,1994,电影表
+10058,59,http://movie.mtime.com/232932/,摔跤吧！爸爸,Dangal,2016,电影表
+10059,60,http://movie.mtime.com/12502/,幽灵公主,Princess Mononoke,1997,电影表
+10060,61,http://movie.mtime.com/156495/,无法触碰,Intouchables,2011,电影表
+10061,62,http://movie.mtime.com/15431/,梦之安魂曲,Requiem for a Dream,2000,电影表
+10062,63,http://movie.mtime.com/45538/,被嫌弃的松子的一生,Memories of Matsuko,2006,电影表
+10063,64,http://movie.mtime.com/143329/,一次别离,A Separation,2011,电影表
+10064,65,http://movie.mtime.com/142064/,熔炉,Silenced,2011,电影表
+10065,66,http://movie.mtime.com/11249/,罗生门,Rashômon,1950,电影表
+10066,67,http://movie.mtime.com/13353/,与狼共舞,Dances with Wolves,1990,电影表
+10067,68,http://movie.mtime.com/11072/,卡萨布兰卡,Casablanca,1942,电影表
+10068,69,http://movie.mtime.com/13877/,惊魂记,Psycho,1960,电影表
+10069,70,http://movie.mtime.com/10834/,虎口脱险,La Grande vadrouille,1966,电影表
+10070,71,http://movie.mtime.com/11329/,美丽人生,La Vita e bella,1997,电影表
+10071,72,http://movie.mtime.com/106313/,让子弹飞,Let The Bullets Fly,2010,电影表
+10072,73,http://movie.mtime.com/48615/,当幸福来敲门,The Pursuit of Happyness,2006,电影表
+10073,74,http://movie.mtime.com/12906/,老男孩,Old Boy,2003,电影表
+10074,75,http://movie.mtime.com/10957/,剪刀手爱德华,Edward Scissorhands,1990,电影表
+10075,76,http://movie.mtime.com/52414/,本杰明·巴顿奇事,The Curious Case of Benjamin Button,2008,电影表
+10076,77,http://movie.mtime.com/11526/,七宗罪,Se7en,1995,电影表
+10077,78,http://movie.mtime.com/12493/,勇敢的心,Braveheart,1995,电影表
+10078,79,http://movie.mtime.com/12142/,无间道,Infernal Affairs,2002,电影表
+10079,80,http://movie.mtime.com/10368/,楚门的世界,The Truman Show,1998,电影表
+10080,81,http://movie.mtime.com/78592/,哈利·波特与死亡圣器(下),Harry Potter and the Deathly Hallows: Part 2,2011,电影表
+10081,82,http://movie.mtime.com/108756/,黑天鹅,Black Swan,2010,电影表
+10082,83,http://movie.mtime.com/51236/,驯龙高手,How to Train Your Dragon,2010,电影表
+10083,84,http://movie.mtime.com/10429/,大鱼,Big Fish,2003,电影表
+10084,85,http://movie.mtime.com/10339/,沉默的羔羊,The Silence of the Lambs,1991,电影表
+10085,86,http://movie.mtime.com/24803/,V字仇杀队,V for Vendetta,2005,电影表
+10086,87,http://movie.mtime.com/11332/,美丽心灵,A Beautiful Mind,2001,电影表
+10087,88,http://movie.mtime.com/148531/,被解救的姜戈,Django Unchained,2012,电影表
+10088,89,http://movie.mtime.com/122493/,告白,Confessions,2010,电影表
+10089,90,http://movie.mtime.com/13594/,燃情岁月,Legends of the Fall,1994,电影表
+10090,91,http://movie.mtime.com/149859/,无敌破坏王,Wreck-It Ralph,2012,电影表
+10091,92,http://movie.mtime.com/12383/,阳光灿烂的日子,In the Heat of the Sun,1994,电影表
+10092,93,http://movie.mtime.com/11717/,上帝之城,City of God,2002,电影表
+10093,94,http://movie.mtime.com/41005/,窃听风暴,Das Leben der Anderen,2006,电影表
+10094,95,http://movie.mtime.com/52841/,荒野生存,Into the Wild,2007,电影表
+10095,96,http://movie.mtime.com/10380/,春光乍泄,Happy Together,1997,电影表
+10096,97,http://movie.mtime.com/11230/,绿里奇迹,The Green Mile,1999,电影表
+10097,98,http://movie.mtime.com/10246/,碧海蓝天,Le Grand Bleu,1988,电影表
+10098,99,http://movie.mtime.com/10364/,出租车司机,Taxi Driver,1976,电影表
+10099,100,http://movie.mtime.com/15783/,爱在日落黄昏时,Before Sunset,2004,电影表
