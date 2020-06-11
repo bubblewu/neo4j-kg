@@ -104,7 +104,7 @@
                 function (data) {
                     if (!data) return;
                     $("#name").text(data.name);
-                    $("#poster").attr("src", "https://rawgit.com/neo4j-contrib/developer-resources/gh-pages/language-guides/assets/posters/" + encodeURIComponent(data.name) + ".jpg");
+                    $("#poster").attr("src", data.image);
                     var $list = $("#info").empty();
                     // data.cast.forEach(function (cast) {
                     //     $list.append($("<li>" + cast.name + " " + cast.job + (cast.job == "acted" ? " as " + cast.role : "") + "</li>"));

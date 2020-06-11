@@ -25,6 +25,7 @@ def save_movie_entity(movie_list):
         'name': [movie['movie_name'] for movie in movie_list],
         'movie_en': [movie['movie_en_name'] for movie in movie_list],
         'year': [movie['year'] for movie in movie_list],
+        'image': [movie['image'] for movie in movie_list],
         ':LABEL': '电影表'
     })
     data.to_csv(config.movie_entity_file, index=False, encoding="UTF-8")

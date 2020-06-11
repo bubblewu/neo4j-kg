@@ -79,13 +79,13 @@ def get_movie_info(name):
     results = graph.run("MATCH (movie:`电影表` {name: $name}) "
                         "OPTIONAL MATCH (movie)<-[ar]-(a:`演员表`) "
                         "OPTIONAL MATCH (movie)<-[dr]-(d:`导演表`) "
-                        "RETURN movie.name as name, d.director as director, collect(a.actor) as actors "
+                        "RETURN movie.name as name, d.director as director, collect(a.actor) as actors, movie.image as image "
                         "LIMIT 1;", {"name": name})
     result_df = pd.DataFrame(results)
     for index, row in result_df.iterrows():
         # {'name': '霸王别姬', 'directors': '陈凯歌', 'actors': '张丰毅,张国荣'}
         # print({"name": row[0], "directors": row[1], "actors": ','.join(row[2])})
-        return {"name": row[0], "directors": row[1], "actors": ','.join(row[2])}
+        return {"name": row[0], "directors": row[1], "actors": ','.join(row[2]), "image": row[3]}
 
 
 if __name__ == '__main__':

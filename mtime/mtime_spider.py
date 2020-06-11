@@ -62,7 +62,8 @@ def parse(html):
             # 电影英文名
             movie_en_name = movie_temp[1][:-7]
             # print(movie_en_name)
-
+            # 电影封面图
+            pic = movie_li.find('div', attrs={'class': 'mov_pic'}).find("img", attrs={'class': 'img_box'})['src']
             src = movie_info.find('a')['href']
             person_info = movie_info.select('p')
             # 导演
@@ -78,7 +79,8 @@ def parse(html):
                               'movie_en_name': movie_en_name,
                               'year': year,
                               'director': director,
-                              'actor': movie_actor
+                              'actor': movie_actor,
+                              'image': pic
                               }
             movie_list.append(movie_info_all)
     print("get movie count: %d" % len(movie_list))
