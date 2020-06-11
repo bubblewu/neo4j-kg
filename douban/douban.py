@@ -9,7 +9,7 @@
 import json
 import time
 
-import douban_config as config
+import douban.douban_config as config
 import numpy as np
 import pandas as pd
 from bs4 import BeautifulSoup

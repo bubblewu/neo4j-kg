@@ -66,8 +66,8 @@
                     <img src="" class="well" id="poster"/>
                 </div>
                 <div class="col-md-8 col-sm-8">
-                    <h4>Crew</h4>
-                    <ul id="crew">
+                    <h4>INFO: </h4>
+                    <ul id="info">
                     </ul>
                 </div>
             </div>
@@ -105,7 +105,7 @@
                     if (!data) return;
                     $("#name").text(data.name);
                     $("#poster").attr("src", "https://rawgit.com/neo4j-contrib/developer-resources/gh-pages/language-guides/assets/posters/" + encodeURIComponent(data.name) + ".jpg");
-                    var $list = $("#crew").empty();
+                    var $list = $("#info").empty();
                     // data.cast.forEach(function (cast) {
                     //     $list.append($("<li>" + cast.name + " " + cast.job + (cast.job == "acted" ? " as " + cast.role : "") + "</li>"));
                     // });
