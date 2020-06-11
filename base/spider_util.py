@@ -7,12 +7,12 @@
 # @Contact: 752820344@qq.com
 
 import random
+import time
+from urllib import request
+
+import numpy as np
 import requests
 from bs4 import BeautifulSoup
-from urllib import request
-import time
-import numpy as np
-
 
 USER_AGENTS = [
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:61.0) Gecko/20100101 Firefox/61.0",
@@ -33,6 +33,7 @@ headers = {
     "Cache-Control": "no-cache",
     # "Cookie": ""
 }
+
 
 def get_ip_list():
     """

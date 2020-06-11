@@ -15,17 +15,7 @@
 #### 如果未关闭，关闭服务
 ./neo4j stop
 #### 命令导入相关数据：
-```
-./bin/neo4j-admin import \
---mode=csv \
---database=mtime_movie.db \
---nodes /Users/wugang/code/python/moive-kg/data/mtime/mtime_movie_entity.csv \
---nodes /Users/wugang/code/python/moive-kg/data/mtime/mtime_director_entity.csv \
---nodes /Users/wugang/code/python/moive-kg/data/mtime/mtime_actor_entity.csv \
---relationships /Users/wugang/code/python/moive-kg/data/mtime/mtime_movie_director_relationship.csv \
---relationships /Users/wugang/code/python/moive-kg/data/mtime/mtime_movie_actor_relationship.csv \
---relationships /Users/wugang/code/python/moive-kg/data/mtime/mtime_director_actor_relationship.csv
-```
+参考脚本：data/mtime/import_mtime.sh
 
 #### 查看db
 cd /Users/wugang/env/neo4j/data/databases/mtime_movie.db
@@ -39,6 +29,7 @@ dbms.active_database=mtime_movie.db
 #### 打开服务
 ./neo4j start
 
-
+#### 可视化服务
+执行mtime/mtime_graph_show.py。基于Bottle框架的Web服务。
 
 
