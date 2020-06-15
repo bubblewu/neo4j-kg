@@ -8,10 +8,10 @@
 
 import time
 
-import mtime.gen_entity as entity
-import mtime.mtime_config as config
-import mtime.mtime_relationship as relationship
-import mtime.mtime_spider as spider
+import movie.mtime.gen_entity as entity
+import movie.mtime.mtime_config as config
+import movie.mtime.mtime_relationship as relationship
+import movie.mtime.mtime_spider as spider
 
 """
 - 生成相关的CSV文件

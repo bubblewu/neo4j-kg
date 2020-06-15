@@ -4,7 +4,7 @@
 
 db_name=MovieMTime.db
 neo4j_path=/Users/wugang/env/neo4j-community-4.0.4
-base_path=/Users/wugang/code/python/moive-kg/data/mtime
+base_path=/Users/wugang/code/python/neo4j-kg/data/mtime
 
 import() {
   cd ${neo4j_path}

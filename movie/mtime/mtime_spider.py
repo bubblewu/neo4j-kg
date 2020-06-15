@@ -9,8 +9,8 @@
 import requests
 from bs4 import BeautifulSoup
 
-import mtime.mtime_config as config
-from mtime.mtime_config import IndexRange
+import movie.mtime.mtime_config as config
+from movie.mtime.mtime_config import IndexRange
 
 
 def download(url):

@@ -16,7 +16,7 @@ import json
 import pandas as pd
 from py2neo import Graph
 
-from web.bottle import get, run, request, response, static_file
+from movie.web.bottle import get, run, request, response, static_file
 
 graph = Graph("http://neo4j:qwe123@localhost:7474")
 

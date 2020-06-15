@@ -8,8 +8,8 @@
 
 import pandas as pd
 
-import mtime.mtime_config as config
-from mtime.mtime_config import IndexRange
+import movie.mtime.mtime_config as config
+from movie.mtime.mtime_config import IndexRange
 
 
 def save_movie_entity(movie_list):
