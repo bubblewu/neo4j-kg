@@ -17,6 +17,8 @@ neo4j_user = "neo4j"
 neo4j_password = "qwe123"
 
 relationship_file = "../../data/article/hlm/relationships.txt"
+images_path = "./images/"
+user_info_data = "./json/data.json"
 
 categories = {"贾家荣国府": 0, "贾家宁国府": 1, "王家": 2, "史家": 3, "薛家": 4, "其他": 5, "林家": 6}
 similar_words = {

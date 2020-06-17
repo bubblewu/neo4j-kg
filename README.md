@@ -13,9 +13,16 @@
 效果展示：
 ![效果展示](https://cdn.jsdelivr.net/gh/bubblewu/cdn/images/neo4j/web-demo.png)
 
-## Article模块：基于红楼梦的关系可视化和简单问答系统
+## Article模块：
+### hlm 基于红楼梦的关系可视化和简单问答系统
+主要内容：
+- 基于《红楼梦》数据，构造人物实体和人物之间的关系实体；
+- 利用网络爬虫从百科上抓取人物信息和图片；
+- 将数据写入Neo4j图数据库；
+- 前端基于Flask框架，后端封装API接口对neo4j进行查询、问答分析、和结果可视化；
 
-
+效果展示：
+![效果展示](https://cdn.jsdelivr.net/gh/bubblewu/cdn/images/other/hlm-search.png)
 
 ## Base模块：基础包
 - spider_util：爬虫基础工具封装

@@ -62,28 +62,27 @@ class QA(object):
                     words_[i] += '->(n' + str(i) + ':Person)'
             query = "match(p)" + ''.join(words_) + \
                     "->(n:Person{Name:'" + person + \
-                    "'}) return  p.Name,n.Name,p.cate,n.cate"
+                    "'}) return  p.Name, n.Name, p.cate, n.cate"
             logging.info("query: %s", query)
         except Exception as e:
             return "错误的提问！！！"
+        data = self.neo.graph.run(query)
+        data = list(data)[0]
+        logging.info(str(data))
+        return data, words
 
-        try:
-            data = self.neo.graph.run(query)
-            data = list(data)[0]
-            logging.info(str(data))
-
-            result = data['n.cate'] + '的【' + data['n.Name'] + "】"
-            for item in words:
-                result += '的'
-                result += item
-            result += '是'
-            result += data['p.cate'] + '的【' + data['p.Name'] + "】"
-            return result
-        except Exception as e:
-            return "没有找到正确的答案！"
+    def qa_result(self, question):
+        data, words = self.qa(question)
+        result = data['n.cate'] + '的【' + data['n.Name'] + "】"
+        for item in words:
+            result += '的'
+            result += item
+        result += '是'
+        result += data['p.cate'] + '的【' + data['p.Name'] + "】"
+        return result
 
 
 if __name__ == '__main__':
     answer = QA()
     print(answer.qa("贾宝玉的爸爸是谁？"))
-    print(answer.qa("贾宝玉的爸爸的爸爸的老婆是谁？"))
+    print(answer.qa_result("贾宝玉的爸爸的爸爸的老婆是谁？"))

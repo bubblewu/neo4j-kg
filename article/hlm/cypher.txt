@@ -1,0 +1,12 @@
+# 人物关系检索
+MATCH (p)-[r]->(n:Person {Name: '贾宝玉'})
+RETURN p.Name AS pName, r.relation AS relation, n.Name AS nName, p.cate AS pCate, n.cate AS nCate
+UNION ALL
+MATCH(p:Person {Name: '贾宝玉'})-[r]->(n)
+RETURN p.Name AS pName, r.relation AS relation, n.Name AS nName, p.cate AS pCate, n.cate AS nCate
+
+
+# 关系问答
+MATCH (p)-[r:`父亲` {relation: '父亲'}]->(n:Person {Name: '贾宝玉'})
+RETURN p.Name AS pName, n.Name AS nName, r.relation AS relation, p.cate AS pCate, n.cate AS nCate
+
