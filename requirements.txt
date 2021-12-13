@@ -7,7 +7,7 @@ colorama==0.4.3
 et-xmlfile==1.0.1
 idna==2.9
 jdcal==1.4.1
-lxml==4.5.1
+lxml==4.6.5
 neobolt==1.7.17
 neotime==1.7.4
 numpy==1.18.5
