@@ -10,7 +10,7 @@ jdcal==1.4.1
 lxml==4.5.1
 neobolt==1.7.17
 neotime==1.7.4
-numpy==1.18.5
+numpy==1.22.0
 openpyxl==3.0.3
 pandas==1.0.4
 prompt-toolkit==2.0.10
